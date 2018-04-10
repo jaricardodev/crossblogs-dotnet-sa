@@ -18,6 +18,7 @@ namespace crossblog.Repositories
 
         public IQueryable<T> Query()
         {
+           
             return _dbContext.Set<T>().AsQueryable();
         }
 

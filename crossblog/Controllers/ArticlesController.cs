@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -9,6 +10,7 @@ using crossblog.Model;
 using crossblog.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace crossblog.Controllers
 {
@@ -26,7 +28,16 @@ namespace crossblog.Controllers
         [HttpGet("search")]
         public async Task<IActionResult> Search([FromQuery]string title)
         {
-            var articles = await _articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20).ToListAsync();
+
+
+            //Debug.WriteLine( _articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20));
+
+  //          var sql = ((ObjectQuery)_articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20))
+  //.ToTraceString();
+
+            //var articles = await _articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20).ToListAsync();
+
+            var articles = await _articleRepository.Query().Where(a => EF.Functions.Like(a.Title, $"%{title}%") || EF.Functions.Like(a.Content, $"%{title}%")).Take(20).ToListAsync();
 
             var result = new ArticleListModel
             {
