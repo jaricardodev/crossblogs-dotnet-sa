@@ -5,7 +5,7 @@ namespace crossblog.Model
 {
     public class ArticleModel
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Required]
         public string Title { get; set; }

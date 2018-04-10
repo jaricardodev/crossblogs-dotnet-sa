@@ -1,0 +1,2645 @@
+{
+  "SourcePath": "C:\\Users\\ryamilka\\Documents\\New folder\\",
+  "HitsFile": "C:\\Users\\ryamilka\\Documents\\New folder\\coverage-hits.txt",
+  "ExtraAssemblies": [
+    "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\dotnet-minicover.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "crossblog",
+      "SourceFiles": {
+        "crossblog\\Controllers\\ArticlesController.cs": {
+          "Instructions": [
+            {
+              "Id": 121,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 9,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.ArticlesController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController::.ctor(crossblog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 122,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "crossblog.Controllers.ArticlesController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController::.ctor(crossblog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 123,
+              "StartLine": 33,
+              "EndLine": 40,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "crossblog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "crossblog.Model.ArticleModel crossblog.Controllers.ArticlesController/<>c::<Search>b__2_1(crossblog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void crossblog.Model.ArticleModel::.ctor()"
+            },
+            {
+              "Id": 124,
+              "StartLine": 33,
+              "EndLine": 40,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "crossblog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "crossblog.Model.ArticleModel crossblog.Controllers.ArticlesController/<>c::<Search>b__2_1(crossblog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void crossblog.Model.ArticleModel::.ctor()"
+            },
+            {
+              "Id": 125,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 149,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 126,
+              "StartLine": 31,
+              "EndLine": 41,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_01a1: ldarg "
+            },
+            {
+              "Id": 127,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_01dd: ldarg "
+            },
+            {
+              "Id": 128,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 149,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 129,
+              "StartLine": 31,
+              "EndLine": 41,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_01a1: ldarg "
+            },
+            {
+              "Id": 130,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_01dd: ldarg "
+            },
+            {
+              "Id": 131,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 132,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 133,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
+              "Id": 134,
+              "StartLine": 57,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b8: ldarg "
+            },
+            {
+              "Id": 135,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0122: ldarg "
+            },
+            {
+              "Id": 136,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 137,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 138,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
+              "Id": 139,
+              "StartLine": 57,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b8: ldarg "
+            },
+            {
+              "Id": 140,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0122: ldarg "
+            },
+            {
+              "Id": 141,
+              "StartLine": 73,
+              "EndLine": 73,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 142,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 143,
+              "StartLine": 78,
+              "EndLine": 84,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 144,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0099: ldarg "
+            },
+            {
+              "Id": 145,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_010a: ldarg "
+            },
+            {
+              "Id": 146,
+              "StartLine": 73,
+              "EndLine": 73,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 147,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 148,
+              "StartLine": 78,
+              "EndLine": 84,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 149,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0099: ldarg "
+            },
+            {
+              "Id": 150,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_010a: ldarg "
+            },
+            {
+              "Id": 151,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 152,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 153,
+              "StartLine": 100,
+              "EndLine": 100,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 154,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 155,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 156,
+              "StartLine": 107,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 157,
+              "StartLine": 108,
+              "EndLine": 108,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 158,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 159,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
+              "Id": 160,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0151: ldarg "
+            },
+            {
+              "Id": 161,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01c2: ldarg "
+            },
+            {
+              "Id": 162,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 163,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 164,
+              "StartLine": 100,
+              "EndLine": 100,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 165,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 166,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 167,
+              "StartLine": 107,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 168,
+              "StartLine": 108,
+              "EndLine": 108,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 169,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 170,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
+              "Id": 171,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0151: ldarg "
+            },
+            {
+              "Id": 172,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01c2: ldarg "
+            },
+            {
+              "Id": 173,
+              "StartLine": 121,
+              "EndLine": 121,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 174,
+              "StartLine": 123,
+              "EndLine": 123,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 175,
+              "StartLine": 125,
+              "EndLine": 125,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 176,
+              "StartLine": 128,
+              "EndLine": 128,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 177,
+              "StartLine": 130,
+              "EndLine": 130,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0133: ldarg "
+            },
+            {
+              "Id": 178,
+              "StartLine": 121,
+              "EndLine": 121,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 179,
+              "StartLine": 123,
+              "EndLine": 123,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 180,
+              "StartLine": 125,
+              "EndLine": 125,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 181,
+              "StartLine": 128,
+              "EndLine": 128,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 182,
+              "StartLine": 130,
+              "EndLine": 130,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0133: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Controllers\\CommentsController.cs": {
+          "Instructions": [
+            {
+              "Id": 183,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 9,
+              "EndColumn": 110,
+              "Class": "crossblog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController::.ctor(crossblog.Repositories.IArticleRepository,crossblog.Repositories.ICommentRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 184,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "crossblog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController::.ctor(crossblog.Repositories.IArticleRepository,crossblog.Repositories.ICommentRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 185,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "crossblog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController::.ctor(crossblog.Repositories.IArticleRepository,crossblog.Repositories.ICommentRepository)",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 186,
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "crossblog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "crossblog.Model.CommentModel crossblog.Controllers.CommentsController/<>c::<Get>b__3_0(crossblog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void crossblog.Model.CommentModel::.ctor()"
+            },
+            {
+              "Id": 187,
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "crossblog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "crossblog.Model.CommentModel crossblog.Controllers.CommentsController/<>c::<Get>b__3_0(crossblog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void crossblog.Model.CommentModel::.ctor()"
+            },
+            {
+              "Id": 188,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 189,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 190,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 191,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 192,
+              "StartLine": 39,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 193,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0193: ldarg "
+            },
+            {
+              "Id": 194,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 195,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 196,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 197,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 198,
+              "StartLine": 39,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 199,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0193: ldarg "
+            },
+            {
+              "Id": 200,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_004a: ldarg "
+            },
+            {
+              "Id": 201,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00d7: ldarg "
+            },
+            {
+              "Id": 202,
+              "StartLine": 63,
+              "EndLine": 63,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00e7: ldarg "
+            },
+            {
+              "Id": 203,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 125,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00f8: ldarg "
+            },
+            {
+              "Id": 204,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0244: ldarg "
+            },
+            {
+              "Id": 205,
+              "StartLine": 70,
+              "EndLine": 70,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0254: ldarg "
+            },
+            {
+              "Id": 206,
+              "StartLine": 73,
+              "EndLine": 81,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0265: ldarg "
+            },
+            {
+              "Id": 207,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02dc: ldarg "
+            },
+            {
+              "Id": 208,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_004a: ldarg "
+            },
+            {
+              "Id": 209,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00d7: ldarg "
+            },
+            {
+              "Id": 210,
+              "StartLine": 63,
+              "EndLine": 63,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00e7: ldarg "
+            },
+            {
+              "Id": 211,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 125,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00f8: ldarg "
+            },
+            {
+              "Id": 212,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0244: ldarg "
+            },
+            {
+              "Id": 213,
+              "StartLine": 70,
+              "EndLine": 70,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0254: ldarg "
+            },
+            {
+              "Id": 214,
+              "StartLine": 73,
+              "EndLine": 81,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0265: ldarg "
+            },
+            {
+              "Id": 215,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "crossblog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02dc: ldarg "
+            },
+            {
+              "Id": 216,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 217,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 218,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 219,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 220,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 221,
+              "StartLine": 102,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 222,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_016c: ldarg "
+            },
+            {
+              "Id": 223,
+              "StartLine": 114,
+              "EndLine": 122,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_01e0: ldarg "
+            },
+            {
+              "Id": 224,
+              "StartLine": 124,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 83,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0257: ldarg "
+            },
+            {
+              "Id": 225,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 226,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 227,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 228,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 229,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 230,
+              "StartLine": 102,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 231,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_016c: ldarg "
+            },
+            {
+              "Id": 232,
+              "StartLine": 114,
+              "EndLine": 122,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_01e0: ldarg "
+            },
+            {
+              "Id": 233,
+              "StartLine": 124,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 83,
+              "Class": "crossblog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0257: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Domain\\Article.cs": {
+          "Instructions": [
+            {
+              "Id": 93,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Domain.Article",
+              "Method": "get_Title",
+              "MethodFullName": "System.String crossblog.Domain.Article::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 94,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Domain.Article",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void crossblog.Domain.Article::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 95,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Domain.Article",
+              "Method": "get_Content",
+              "MethodFullName": "System.String crossblog.Domain.Article::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 96,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.Article",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void crossblog.Domain.Article::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 97,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "crossblog.Domain.Article",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime crossblog.Domain.Article::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 98,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "crossblog.Domain.Article",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void crossblog.Domain.Article::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 99,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Domain.Article",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean crossblog.Domain.Article::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 100,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.Article",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void crossblog.Domain.Article::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Domain\\BaseEntity.cs": {
+          "Instructions": [
+            {
+              "Id": 101,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 26,
+              "EndColumn": 30,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 crossblog.Domain.BaseEntity::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 102,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 103,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "get_Created_At",
+              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Created_At()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 104,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "set_Created_At",
+              "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Created_At(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 105,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "get_Updated_At",
+              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Updated_At()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 106,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "set_Updated_At",
+              "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Updated_At(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Domain\\Comment.cs": {
+          "Instructions": [
+            {
+              "Id": 107,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_ArticleId",
+              "MethodFullName": "System.Nullable`1<System.Int32> crossblog.Domain.Comment::get_ArticleId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 108,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_ArticleId",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_ArticleId(System.Nullable`1<System.Int32>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 109,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Article",
+              "MethodFullName": "crossblog.Domain.Article crossblog.Domain.Comment::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 110,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Article(crossblog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 111,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Email",
+              "MethodFullName": "System.String crossblog.Domain.Comment::get_Email()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 112,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Email",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Email(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 113,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Title",
+              "MethodFullName": "System.String crossblog.Domain.Comment::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 114,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 115,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Content",
+              "MethodFullName": "System.String crossblog.Domain.Comment::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 116,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 117,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime crossblog.Domain.Comment::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 118,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 119,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean crossblog.Domain.Comment::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 120,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.Comment",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void crossblog.Domain.Comment::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Exceptions\\HttpStatusCodeException.cs": {
+          "Instructions": [
+            {
+              "Id": 56,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": "get_StatusCode",
+              "MethodFullName": "System.Int32 crossblog.Exceptions.HttpStatusCodeException::get_StatusCode()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 57,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": "set_StatusCode",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::set_StatusCode(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 58,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": "get_ContentType",
+              "MethodFullName": "System.String crossblog.Exceptions.HttpStatusCodeException::get_ContentType()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 59,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": "set_ContentType",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::set_ContentType(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 60,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 61,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 9,
+              "EndColumn": 55,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 62,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0013: ldarg "
+            },
+            {
+              "Id": 63,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 64,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 74,
+              "EndColumn": 87,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 65,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0014: ldarg "
+            },
+            {
+              "Id": 66,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 75,
+              "EndColumn": 109,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.Exception)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 67,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 79,
+              "EndColumn": 119,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 68,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "crossblog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_000f: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Exceptions\\HttpStatusCodeExceptionMiddleware.cs": {
+          "Instructions": [
+            {
+              "Id": 69,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 9,
+              "EndColumn": 101,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 70,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 71,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 13,
+              "EndColumn": 146,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_001e: ldarg "
+            },
+            {
+              "Id": 72,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 73,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 74,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 75,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 21,
+              "EndColumn": 131,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 76,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 77,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 78,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 79,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 80,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            },
+            {
+              "Id": 81,
+              "StartLine": 40,
+              "EndLine": 40,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_01f2: leave IL_0217"
+            },
+            {
+              "Id": 82,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 83,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 84,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 85,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 21,
+              "EndColumn": 131,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 86,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 87,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 88,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 89,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 90,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            },
+            {
+              "Id": 91,
+              "StartLine": 40,
+              "EndLine": 40,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_01f2: leave IL_0217"
+            }
+          ]
+        },
+        "crossblog\\Exceptions\\HttpStatusCodeExceptionMiddlewareExtensions.cs": {
+          "Instructions": [
+            {
+              "Id": 92,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "crossblog.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions",
+              "Method": "UseHttpStatusCodeExceptionMiddleware",
+              "MethodFullName": "Microsoft.AspNetCore.Builder.IApplicationBuilder crossblog.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions::UseHttpStatusCodeExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)",
+              "Instruction": "IL_0001: ldarg builder"
+            }
+          ]
+        },
+        "crossblog\\Model\\ArticleListModel.cs": {
+          "Instructions": [
+            {
+              "Id": 30,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 53,
+              "EndColumn": 57,
+              "Class": "crossblog.Model.ArticleListModel",
+              "Method": "get_Articles",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<crossblog.Model.ArticleModel> crossblog.Model.ArticleListModel::get_Articles()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 31,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 58,
+              "EndColumn": 62,
+              "Class": "crossblog.Model.ArticleListModel",
+              "Method": "set_Articles",
+              "MethodFullName": "System.Void crossblog.Model.ArticleListModel::set_Articles(System.Collections.Generic.IEnumerable`1<crossblog.Model.ArticleModel>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Model\\ArticleModel.cs": {
+          "Instructions": [
+            {
+              "Id": 32,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 26,
+              "EndColumn": 30,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Nullable`1<System.Int32> crossblog.Model.ArticleModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 33,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void crossblog.Model.ArticleModel::set_Id(System.Nullable`1<System.Int32>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 34,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "get_Title",
+              "MethodFullName": "System.String crossblog.Model.ArticleModel::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 35,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void crossblog.Model.ArticleModel::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 36,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "get_Content",
+              "MethodFullName": "System.String crossblog.Model.ArticleModel::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 37,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void crossblog.Model.ArticleModel::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 38,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime crossblog.Model.ArticleModel::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 39,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void crossblog.Model.ArticleModel::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 40,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean crossblog.Model.ArticleModel::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 41,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Model.ArticleModel",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void crossblog.Model.ArticleModel::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Model\\CommentListModel.cs": {
+          "Instructions": [
+            {
+              "Id": 42,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 53,
+              "EndColumn": 57,
+              "Class": "crossblog.Model.CommentListModel",
+              "Method": "get_Comments",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<crossblog.Model.CommentModel> crossblog.Model.CommentListModel::get_Comments()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 43,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 58,
+              "EndColumn": 62,
+              "Class": "crossblog.Model.CommentListModel",
+              "Method": "set_Comments",
+              "MethodFullName": "System.Void crossblog.Model.CommentListModel::set_Comments(System.Collections.Generic.IEnumerable`1<crossblog.Model.CommentModel>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Model\\CommentModel.cs": {
+          "Instructions": [
+            {
+              "Id": 44,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 crossblog.Model.CommentModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 45,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 46,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Email",
+              "MethodFullName": "System.String crossblog.Model.CommentModel::get_Email()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 47,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Email",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Email(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 48,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Title",
+              "MethodFullName": "System.String crossblog.Model.CommentModel::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 49,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 50,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Content",
+              "MethodFullName": "System.String crossblog.Model.CommentModel::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 51,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 52,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime crossblog.Model.CommentModel::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 53,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 54,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean crossblog.Model.CommentModel::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 55,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Model.CommentModel",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void crossblog.Model.CommentModel::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Repositories\\ArticleRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 63,
+              "Class": "crossblog.Repositories.ArticleRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Repositories.ArticleRepository::.ctor(crossblog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 2,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "crossblog.Repositories.ArticleRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Repositories.ArticleRepository::.ctor(crossblog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Repositories\\CommentRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 3,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 63,
+              "Class": "crossblog.Repositories.CommentRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Repositories.CommentRepository::.ctor(crossblog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 4,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "crossblog.Repositories.CommentRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void crossblog.Repositories.CommentRepository::.ctor(crossblog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "crossblog\\Repositories\\GenericRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 5,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 51,
+              "EndColumn": 55,
+              "Class": "crossblog.Repositories.GenericRepository`1",
+              "Method": "get__dbContext",
+              "MethodFullName": "crossblog.Domain.CrossBlogDbContext crossblog.Repositories.GenericRepository`1::get__dbContext()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 6,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 56,
+              "EndColumn": 60,
+              "Class": "crossblog.Repositories.GenericRepository`1",
+              "Method": "set__dbContext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1::set__dbContext(crossblog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 7,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "crossblog.Repositories.GenericRepository`1",
+              "Method": "Query",
+              "MethodFullName": "System.Linq.IQueryable`1<T> crossblog.Repositories.GenericRepository`1::Query()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 8,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "crossblog.Repositories.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 9,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "crossblog.Repositories.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 10,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 11,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 12,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_003e: ldarg "
+            },
+            {
+              "Id": 13,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 14,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 15,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 16,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_003e: ldarg "
+            },
+            {
+              "Id": 17,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 18,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 19,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 20,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0045: ldarg "
+            },
+            {
+              "Id": 21,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 22,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 23,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0045: ldarg "
+            },
+            {
+              "Id": 24,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 25,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 26,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_004c: ldarg "
+            },
+            {
+              "Id": 27,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 28,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 29,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_004c: ldarg "
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.dll",
+          "BackupFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.dll",
+          "PdbFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.pdb",
+          "BackupPdbFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}

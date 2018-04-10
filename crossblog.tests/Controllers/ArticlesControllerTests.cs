@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using crossblog.Controllers;
@@ -11,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using Xunit;
+using Xunit.Sdk;
 
 namespace crossblog.tests.Controllers
 {
@@ -104,6 +106,66 @@ namespace crossblog.tests.Controllers
             Assert.NotNull(content);
 
             Assert.Equal("Title1", content.Title);
+        }
+
+        [Fact]
+        public async Task Post_Returns400BadRequest()
+        {
+            // Arrange
+            ArticleModel article = new ArticleModel()
+            {
+                Title = "Title"
+            };
+
+            // Act
+            SimulateValidation(article);
+            var result = await _articlesController.Post(article);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as BadRequestObjectResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(400, objectResult.StatusCode);
+        }
+
+        private void SimulateValidation(object model)
+        {
+            var validationContext = new ValidationContext(model, null, null);
+            var validationResults = new List<ValidationResult>();
+            Validator.TryValidateObject(model, validationContext, validationResults, true);
+            foreach (var validationResult in validationResults)
+            {
+                _articlesController.ModelState.AddModelError(validationResult.MemberNames.First(), validationResult.ErrorMessage);
+            }
+        }
+
+        [Fact]
+        public async Task Post_Returns201CreatedResponse()
+        {
+            // Arrange
+            var article = new ArticleModel()
+            {
+                Title = "Title",
+                Content = "Content",
+                Date = DateTime.Now,
+                Published = true
+            };
+
+            var expectedUri = "articles/0";
+
+            // Act
+            var result = await _articlesController.Post(article);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as CreatedResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(expectedUri, objectResult.Location);
+
+            var content = objectResult.Value as Article;
+            Assert.NotNull(content);
         }
     }
 }
