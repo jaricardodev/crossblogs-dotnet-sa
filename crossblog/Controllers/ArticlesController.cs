@@ -28,27 +28,49 @@ namespace crossblog.Controllers
         [HttpGet("search")]
         public async Task<IActionResult> Search([FromQuery]string title)
         {
+            ///This is old logic
+            //var articles = await _articleRepository.Query()
+            //    .Where(a => a.Title.Contains(title) || a.Content.Contains(title))
+            //    .Take(20)
+            //    .ToListAsync();
 
+            //var result = new ArticleListModel
+            //{
+            //    Articles = articles.Select(a => new ArticleModel
+            //    {
+            //        Id = a.Id,
+            //        Title = a.Title,
+            //        Content = a.Content,
+            //        Date = a.Date,
+            //        Published = a.Published
+            //    })
+            //};
 
-            //Debug.WriteLine( _articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20));
+            //return Ok(result);
 
-  //          var sql = ((ObjectQuery)_articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20))
-  //.ToTraceString();
-
-            //var articles = await _articleRepository.Query().Where(a => a.Title.Contains(title) || a.Content.Contains(title)).Take(20).ToListAsync();
-
-            var articles = await _articleRepository.Query().Where(a => EF.Functions.Like(a.Title, $"%{title}%") || EF.Functions.Like(a.Content, $"%{title}%")).Take(20).ToListAsync();
+            ///For search improvement, I added indexes (check context class), disabled tracking, changed contains with like and avoided being tooo greedy with colums
+            ///Those are the quick improvements I can come up for this query
+            ///A further improvement could be translate the whole query into a Store procedure and call the sproc. Didnt do it to avoid spending too much time on it 
+            ///The performance improvement is more obvious removing the Take(20) condition. 
+            ///Using about 110000 records on articles table, old logic took about 1.5 seconds while new logic was under 800 ms. In both cases not using he Take(20) condition.
+            ///I created a dummy data sproc that include in the project files for testing preformance
+            var articles = await _articleRepository.Query()
+            .AsNoTracking()
+            .Where(a => EF.Functions.Like(a.Title, $"%{title}%") || EF.Functions.Like(a.Content, $"%{title}%"))
+            .Take(20)
+            .Select(a => new ArticleModel
+            {
+                Id = a.Id,
+                Title = a.Title,
+                Content = a.Content,
+                Date = a.Date,
+                Published = a.Published
+            })
+            .ToListAsync();
 
             var result = new ArticleListModel
             {
-                Articles = articles.Select(a => new ArticleModel
-                {
-                    Id = a.Id,
-                    Title = a.Title,
-                    Content = a.Content,
-                    Date = a.Date,
-                    Published = a.Published
-                })
+                Articles = articles
             };
 
             return Ok(result);
