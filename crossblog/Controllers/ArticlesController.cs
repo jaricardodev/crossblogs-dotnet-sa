@@ -193,7 +193,7 @@ namespace crossblog.Controllers
                 return NotFound();
             }
 
-            await _articleRepository.DeleteAsync(id);
+            await _articleRepository.DeleteAsync(article);
 
             return Ok();
         }
