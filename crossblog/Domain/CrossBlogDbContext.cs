@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 
 namespace crossblog.Domain
 {
@@ -10,16 +12,23 @@ namespace crossblog.Domain
 
         public DbSet<Comment> Comments { get; set; }
 
+        public static readonly LoggerFactory MyLoggerFactory
+        = new LoggerFactory(new[] { new ConsoleLoggerProvider((_, __) => true, true) });
+
         public CrossBlogDbContext(DbContextOptions<CrossBlogDbContext> options) : base(options)
         {
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Article>().HasIndex(p => new { p.Title, p.Content });
+
             modelBuilder.Entity<Comment>().HasOne(c => c.Article).WithMany().OnDelete(DeleteBehavior.SetNull);
         }
     }

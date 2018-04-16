@@ -18,6 +18,7 @@ namespace crossblog.Repositories
 
         public IQueryable<T> Query()
         {
+           
             return _dbContext.Set<T>().AsQueryable();
         }
 
@@ -41,7 +42,11 @@ namespace crossblog.Repositories
         public async Task DeleteAsync(int id)
         {
             T entity = new T() { Id = id };
+            await DeleteAsync(entity);
+        }
 
+        public async Task DeleteAsync(T entity)
+        {
             _dbContext.Entry(entity).State = EntityState.Deleted;
             await _dbContext.SaveChangesAsync();
         }
