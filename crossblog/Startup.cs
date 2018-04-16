@@ -56,6 +56,7 @@ namespace crossblog
             using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
                 var context = serviceScope.ServiceProvider.GetRequiredService<CrossBlogDbContext>();
+                //TODO comment to test search using sproc
                 context.Database.Migrate();
             }
 

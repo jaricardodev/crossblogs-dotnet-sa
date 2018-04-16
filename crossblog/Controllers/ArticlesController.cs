@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -74,6 +75,40 @@ namespace crossblog.Controllers
             };
 
             return Ok(result);
+
+
+            ///This logic uses a call to a sproc
+            //var param0 = new MySql.Data.MySqlClient.MySqlParameter()
+            //{
+            //    ParameterName = "@textSearch",
+            //    MySqlDbType = MySql.Data.MySqlClient.MySqlDbType.VarChar,
+            //    Direction = System.Data.ParameterDirection.Input,
+            //    Size = 50,
+            //    Value = title
+            //};
+
+            //var articles = await _articleRepository.Query()
+            //.AsNoTracking()
+            //.FromSql("CALL `crossblog`.`searchSproc`(@textSearch);", param0)
+            /////.Take(20)
+            //.Select(a => new ArticleModel
+            //{
+            //    Id = a.Id,
+            //    Title = a.Title,
+            //    Content = a.Content,
+            //    Date = a.Date,
+            //    Published = a.Published
+            //})
+            //.ToListAsync();
+
+            //var result = new ArticleListModel
+            //{
+            //    Articles = articles
+            //};
+
+            //return Ok(result);
+
+
         }
 
         // GET articles/5

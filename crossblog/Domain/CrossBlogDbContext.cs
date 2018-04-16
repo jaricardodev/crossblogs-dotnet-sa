@@ -13,7 +13,7 @@ namespace crossblog.Domain
         public DbSet<Comment> Comments { get; set; }
 
         public static readonly LoggerFactory MyLoggerFactory
-    = new LoggerFactory(new[] { new ConsoleLoggerProvider((_, __) => true, true) });
+        = new LoggerFactory(new[] { new ConsoleLoggerProvider((_, __) => true, true) });
 
         public CrossBlogDbContext(DbContextOptions<CrossBlogDbContext> options) : base(options)
         {
