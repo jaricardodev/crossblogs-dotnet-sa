@@ -46,7 +46,7 @@ namespace crossblog.tests.Controllers
             var content = objectResult.Value as ArticleListModel;
             Assert.NotNull(content);
 
-            Assert.Equal(0, content.Articles.Count());
+            Assert.Empty(content.Articles);
         }
 
         [Fact]
@@ -111,14 +111,12 @@ namespace crossblog.tests.Controllers
         [Fact]
         public async Task Post_Returns400BadRequest()
         {
-            // Arrange
-            ArticleModel article = new ArticleModel()
-            {
-                Title = "Title"
-            };
 
-            // Act
-            SimulateValidation(article);
+            // Arrange
+            _articlesController.ModelState.AddModelError("Content", "Content is required");
+            var article = Builder<ArticleModel>.CreateNew().Build();
+
+            //Act
             var result = await _articlesController.Post(article);
 
             // Assert
@@ -129,28 +127,17 @@ namespace crossblog.tests.Controllers
             Assert.Equal(400, objectResult.StatusCode);
         }
 
-        private void SimulateValidation(object model)
-        {
-            var validationContext = new ValidationContext(model, null, null);
-            var validationResults = new List<ValidationResult>();
-            Validator.TryValidateObject(model, validationContext, validationResults, true);
-            foreach (var validationResult in validationResults)
-            {
-                _articlesController.ModelState.AddModelError(validationResult.MemberNames.First(), validationResult.ErrorMessage);
-            }
-        }
-
         [Fact]
         public async Task Post_Returns201CreatedResponse()
         {
             // Arrange
-            var article = new ArticleModel()
-            {
-                Title = "Title",
-                Content = "Content",
-                Date = DateTime.Now,
-                Published = true
-            };
+            var article = Builder<ArticleModel>
+            .CreateNew()
+                .With(x => x.Title = "Special title")
+                .And(x => x.Content = "Special description")
+                .And(x => x.Date = DateTime.Now)
+                .And(x => x.Published = true)
+            .Build();
 
             var expectedUri = "articles/0";
 
@@ -166,6 +153,26 @@ namespace crossblog.tests.Controllers
 
             var content = objectResult.Value as Article;
             Assert.NotNull(content);
+        }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(10)]
+        public async Task Delete(int id)
+        {
+            // Arrange for success
+            _articleRepositoryMock.Setup(m => m.GetAsync(id)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
+
+
+            //Act
+            var result = await _articlesController.Delete(id);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as BadRequestObjectResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(400, objectResult.StatusCode);
         }
     }
 }
