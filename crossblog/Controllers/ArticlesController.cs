@@ -77,7 +77,10 @@ namespace crossblog.Controllers
             return Ok(result);
 
 
-            ///This logic uses a call to a sproc
+            ///This logic uses a call to a sproc. I created it just to show how the same operation can be done using this technique
+            ///In some cases this is preferred to using a full linq composed query. For this case, uncommented solution was faster
+            ///To try this use up method commented code on 20180412155610_AdSprocForSearch migration file. I commneted it due to pomelo
+            ///connector having issue with Delimiter sentece, reference: https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/issues/529
             //var param0 = new MySql.Data.MySqlClient.MySqlParameter()
             //{
             //    ParameterName = "@textSearch",
