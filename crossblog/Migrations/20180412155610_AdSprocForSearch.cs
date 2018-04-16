@@ -31,7 +31,7 @@ namespace crossblog.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             //Uncomment to test search using a sproc
-            migrationBuilder.Sql("DROP PROCEDURE `crossblog`.`searchSproc`;");
+            //migrationBuilder.Sql("DROP PROCEDURE `crossblog`.`searchSproc`;");
         }
     }
 }
