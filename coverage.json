@@ -1,8 +1,8 @@
 {
-  "SourcePath": "C:\\Users\\ryamilka\\Documents\\New folder\\",
-  "HitsFile": "C:\\Users\\ryamilka\\Documents\\New folder\\coverage-hits.txt",
+  "SourcePath": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\",
+  "HitsFile": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\coverage-hits.txt",
   "ExtraAssemblies": [
-    "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\dotnet-minicover.dll"
+    "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\dotnet-minicover.dll"
   ],
   "Assemblies": [
     {
@@ -11,9 +11,9 @@
         "crossblog\\Controllers\\ArticlesController.cs": {
           "Instructions": [
             {
-              "Id": 121,
-              "StartLine": 20,
-              "EndLine": 20,
+              "Id": 123,
+              "StartLine": 23,
+              "EndLine": 23,
               "StartColumn": 9,
               "EndColumn": 72,
               "Class": "crossblog.Controllers.ArticlesController",
@@ -22,9 +22,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 122,
-              "StartLine": 22,
-              "EndLine": 22,
+              "Id": 124,
+              "StartLine": 25,
+              "EndLine": 25,
               "StartColumn": 13,
               "EndColumn": 52,
               "Class": "crossblog.Controllers.ArticlesController",
@@ -33,33 +33,11 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 123,
-              "StartLine": 33,
-              "EndLine": 40,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "crossblog.Controllers.ArticlesController/<>c",
-              "Method": "<Search>b__2_1",
-              "MethodFullName": "crossblog.Model.ArticleModel crossblog.Controllers.ArticlesController/<>c::<Search>b__2_1(crossblog.Domain.Article)",
-              "Instruction": "IL_0000: newobj System.Void crossblog.Model.ArticleModel::.ctor()"
-            },
-            {
-              "Id": 124,
-              "StartLine": 33,
-              "EndLine": 40,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "crossblog.Controllers.ArticlesController/<>c",
-              "Method": "<Search>b__2_1",
-              "MethodFullName": "crossblog.Model.ArticleModel crossblog.Controllers.ArticlesController/<>c::<Search>b__2_1(crossblog.Domain.Article)",
-              "Instruction": "IL_0000: newobj System.Void crossblog.Model.ArticleModel::.ctor()"
-            },
-            {
               "Id": 125,
-              "StartLine": 29,
-              "EndLine": 29,
+              "StartLine": 58,
+              "EndLine": 70,
               "StartColumn": 13,
-              "EndColumn": 149,
+              "EndColumn": 28,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
@@ -67,32 +45,32 @@
             },
             {
               "Id": 126,
-              "StartLine": 31,
-              "EndLine": 41,
+              "StartLine": 72,
+              "EndLine": 75,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_01a1: ldarg "
+              "Instruction": "IL_0376: ldarg "
             },
             {
               "Id": 127,
-              "StartLine": 43,
-              "EndLine": 43,
+              "StartLine": 77,
+              "EndLine": 77,
               "StartColumn": 13,
               "EndColumn": 31,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_01dd: ldarg "
+              "Instruction": "IL_038e: ldarg "
             },
             {
               "Id": 128,
-              "StartLine": 29,
-              "EndLine": 29,
+              "StartLine": 58,
+              "EndLine": 70,
               "StartColumn": 13,
-              "EndColumn": 149,
+              "EndColumn": 28,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
@@ -100,30 +78,30 @@
             },
             {
               "Id": 129,
-              "StartLine": 31,
-              "EndLine": 41,
+              "StartLine": 72,
+              "EndLine": 75,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_01a1: ldarg "
+              "Instruction": "IL_0376: ldarg "
             },
             {
               "Id": 130,
-              "StartLine": 43,
-              "EndLine": 43,
+              "StartLine": 77,
+              "EndLine": 77,
               "StartColumn": 13,
               "EndColumn": 31,
               "Class": "crossblog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_01dd: ldarg "
+              "Instruction": "IL_038e: ldarg "
             },
             {
               "Id": 131,
-              "StartLine": 50,
-              "EndLine": 50,
+              "StartLine": 121,
+              "EndLine": 121,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -133,8 +111,8 @@
             },
             {
               "Id": 132,
-              "StartLine": 52,
-              "EndLine": 52,
+              "StartLine": 123,
+              "EndLine": 123,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -144,8 +122,8 @@
             },
             {
               "Id": 133,
-              "StartLine": 54,
-              "EndLine": 54,
+              "StartLine": 125,
+              "EndLine": 125,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -155,8 +133,8 @@
             },
             {
               "Id": 134,
-              "StartLine": 57,
-              "EndLine": 64,
+              "StartLine": 128,
+              "EndLine": 135,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -166,8 +144,8 @@
             },
             {
               "Id": 135,
-              "StartLine": 66,
-              "EndLine": 66,
+              "StartLine": 137,
+              "EndLine": 137,
               "StartColumn": 13,
               "EndColumn": 31,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -177,8 +155,8 @@
             },
             {
               "Id": 136,
-              "StartLine": 50,
-              "EndLine": 50,
+              "StartLine": 121,
+              "EndLine": 121,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -188,8 +166,8 @@
             },
             {
               "Id": 137,
-              "StartLine": 52,
-              "EndLine": 52,
+              "StartLine": 123,
+              "EndLine": 123,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -199,8 +177,8 @@
             },
             {
               "Id": 138,
-              "StartLine": 54,
-              "EndLine": 54,
+              "StartLine": 125,
+              "EndLine": 125,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -210,8 +188,8 @@
             },
             {
               "Id": 139,
-              "StartLine": 57,
-              "EndLine": 64,
+              "StartLine": 128,
+              "EndLine": 135,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -221,8 +199,8 @@
             },
             {
               "Id": 140,
-              "StartLine": 66,
-              "EndLine": 66,
+              "StartLine": 137,
+              "EndLine": 137,
               "StartColumn": 13,
               "EndColumn": 31,
               "Class": "crossblog.Controllers.ArticlesController/<Get>d__3",
@@ -232,8 +210,8 @@
             },
             {
               "Id": 141,
-              "StartLine": 73,
-              "EndLine": 73,
+              "StartLine": 144,
+              "EndLine": 144,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -243,8 +221,8 @@
             },
             {
               "Id": 142,
-              "StartLine": 75,
-              "EndLine": 75,
+              "StartLine": 146,
+              "EndLine": 146,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -254,8 +232,8 @@
             },
             {
               "Id": 143,
-              "StartLine": 78,
-              "EndLine": 84,
+              "StartLine": 149,
+              "EndLine": 155,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -265,8 +243,8 @@
             },
             {
               "Id": 144,
-              "StartLine": 86,
-              "EndLine": 86,
+              "StartLine": 157,
+              "EndLine": 157,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -276,8 +254,8 @@
             },
             {
               "Id": 145,
-              "StartLine": 88,
-              "EndLine": 88,
+              "StartLine": 159,
+              "EndLine": 159,
               "StartColumn": 13,
               "EndColumn": 63,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -287,8 +265,8 @@
             },
             {
               "Id": 146,
-              "StartLine": 73,
-              "EndLine": 73,
+              "StartLine": 144,
+              "EndLine": 144,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -298,8 +276,8 @@
             },
             {
               "Id": 147,
-              "StartLine": 75,
-              "EndLine": 75,
+              "StartLine": 146,
+              "EndLine": 146,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -309,8 +287,8 @@
             },
             {
               "Id": 148,
-              "StartLine": 78,
-              "EndLine": 84,
+              "StartLine": 149,
+              "EndLine": 155,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -320,8 +298,8 @@
             },
             {
               "Id": 149,
-              "StartLine": 86,
-              "EndLine": 86,
+              "StartLine": 157,
+              "EndLine": 157,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -331,8 +309,8 @@
             },
             {
               "Id": 150,
-              "StartLine": 88,
-              "EndLine": 88,
+              "StartLine": 159,
+              "EndLine": 159,
               "StartColumn": 13,
               "EndColumn": 63,
               "Class": "crossblog.Controllers.ArticlesController/<Post>d__4",
@@ -342,8 +320,8 @@
             },
             {
               "Id": 151,
-              "StartLine": 95,
-              "EndLine": 95,
+              "StartLine": 166,
+              "EndLine": 166,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -353,8 +331,8 @@
             },
             {
               "Id": 152,
-              "StartLine": 97,
-              "EndLine": 97,
+              "StartLine": 168,
+              "EndLine": 168,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -364,8 +342,8 @@
             },
             {
               "Id": 153,
-              "StartLine": 100,
-              "EndLine": 100,
+              "StartLine": 171,
+              "EndLine": 171,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -375,8 +353,8 @@
             },
             {
               "Id": 154,
-              "StartLine": 102,
-              "EndLine": 102,
+              "StartLine": 173,
+              "EndLine": 173,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -386,8 +364,8 @@
             },
             {
               "Id": 155,
-              "StartLine": 104,
-              "EndLine": 104,
+              "StartLine": 175,
+              "EndLine": 175,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -397,8 +375,8 @@
             },
             {
               "Id": 156,
-              "StartLine": 107,
-              "EndLine": 107,
+              "StartLine": 178,
+              "EndLine": 178,
               "StartColumn": 13,
               "EndColumn": 41,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -408,8 +386,8 @@
             },
             {
               "Id": 157,
-              "StartLine": 108,
-              "EndLine": 108,
+              "StartLine": 179,
+              "EndLine": 179,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -419,8 +397,8 @@
             },
             {
               "Id": 158,
-              "StartLine": 109,
-              "EndLine": 109,
+              "StartLine": 180,
+              "EndLine": 180,
               "StartColumn": 13,
               "EndColumn": 44,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -430,8 +408,8 @@
             },
             {
               "Id": 159,
-              "StartLine": 110,
-              "EndLine": 110,
+              "StartLine": 181,
+              "EndLine": 181,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -441,8 +419,8 @@
             },
             {
               "Id": 160,
-              "StartLine": 112,
-              "EndLine": 112,
+              "StartLine": 183,
+              "EndLine": 183,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -452,8 +430,8 @@
             },
             {
               "Id": 161,
-              "StartLine": 114,
-              "EndLine": 114,
+              "StartLine": 185,
+              "EndLine": 185,
               "StartColumn": 13,
               "EndColumn": 32,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -463,8 +441,8 @@
             },
             {
               "Id": 162,
-              "StartLine": 95,
-              "EndLine": 95,
+              "StartLine": 166,
+              "EndLine": 166,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -474,8 +452,8 @@
             },
             {
               "Id": 163,
-              "StartLine": 97,
-              "EndLine": 97,
+              "StartLine": 168,
+              "EndLine": 168,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -485,8 +463,8 @@
             },
             {
               "Id": 164,
-              "StartLine": 100,
-              "EndLine": 100,
+              "StartLine": 171,
+              "EndLine": 171,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -496,8 +474,8 @@
             },
             {
               "Id": 165,
-              "StartLine": 102,
-              "EndLine": 102,
+              "StartLine": 173,
+              "EndLine": 173,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -507,8 +485,8 @@
             },
             {
               "Id": 166,
-              "StartLine": 104,
-              "EndLine": 104,
+              "StartLine": 175,
+              "EndLine": 175,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -518,8 +496,8 @@
             },
             {
               "Id": 167,
-              "StartLine": 107,
-              "EndLine": 107,
+              "StartLine": 178,
+              "EndLine": 178,
               "StartColumn": 13,
               "EndColumn": 41,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -529,8 +507,8 @@
             },
             {
               "Id": 168,
-              "StartLine": 108,
-              "EndLine": 108,
+              "StartLine": 179,
+              "EndLine": 179,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -540,8 +518,8 @@
             },
             {
               "Id": 169,
-              "StartLine": 109,
-              "EndLine": 109,
+              "StartLine": 180,
+              "EndLine": 180,
               "StartColumn": 13,
               "EndColumn": 44,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -551,8 +529,8 @@
             },
             {
               "Id": 170,
-              "StartLine": 110,
-              "EndLine": 110,
+              "StartLine": 181,
+              "EndLine": 181,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -562,8 +540,8 @@
             },
             {
               "Id": 171,
-              "StartLine": 112,
-              "EndLine": 112,
+              "StartLine": 183,
+              "EndLine": 183,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -573,8 +551,8 @@
             },
             {
               "Id": 172,
-              "StartLine": 114,
-              "EndLine": 114,
+              "StartLine": 185,
+              "EndLine": 185,
               "StartColumn": 13,
               "EndColumn": 32,
               "Class": "crossblog.Controllers.ArticlesController/<Put>d__5",
@@ -584,8 +562,8 @@
             },
             {
               "Id": 173,
-              "StartLine": 121,
-              "EndLine": 121,
+              "StartLine": 192,
+              "EndLine": 192,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -595,8 +573,8 @@
             },
             {
               "Id": 174,
-              "StartLine": 123,
-              "EndLine": 123,
+              "StartLine": 194,
+              "EndLine": 194,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -606,8 +584,8 @@
             },
             {
               "Id": 175,
-              "StartLine": 125,
-              "EndLine": 125,
+              "StartLine": 196,
+              "EndLine": 196,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -617,10 +595,10 @@
             },
             {
               "Id": 176,
-              "StartLine": 128,
-              "EndLine": 128,
+              "StartLine": 199,
+              "EndLine": 199,
               "StartColumn": 13,
-              "EndColumn": 54,
+              "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
@@ -628,8 +606,8 @@
             },
             {
               "Id": 177,
-              "StartLine": 130,
-              "EndLine": 130,
+              "StartLine": 201,
+              "EndLine": 201,
               "StartColumn": 13,
               "EndColumn": 25,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -639,8 +617,8 @@
             },
             {
               "Id": 178,
-              "StartLine": 121,
-              "EndLine": 121,
+              "StartLine": 192,
+              "EndLine": 192,
               "StartColumn": 13,
               "EndColumn": 65,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -650,8 +628,8 @@
             },
             {
               "Id": 179,
-              "StartLine": 123,
-              "EndLine": 123,
+              "StartLine": 194,
+              "EndLine": 194,
               "StartColumn": 13,
               "EndColumn": 33,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -661,8 +639,8 @@
             },
             {
               "Id": 180,
-              "StartLine": 125,
-              "EndLine": 125,
+              "StartLine": 196,
+              "EndLine": 196,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -672,10 +650,10 @@
             },
             {
               "Id": 181,
-              "StartLine": 128,
-              "EndLine": 128,
+              "StartLine": 199,
+              "EndLine": 199,
               "StartColumn": 13,
-              "EndColumn": 54,
+              "EndColumn": 59,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
@@ -683,8 +661,8 @@
             },
             {
               "Id": 182,
-              "StartLine": 130,
-              "EndLine": 130,
+              "StartLine": 201,
+              "EndLine": 201,
               "StartColumn": 13,
               "EndColumn": 25,
               "Class": "crossblog.Controllers.ArticlesController/<Delete>d__6",
@@ -1262,7 +1240,7 @@
         "crossblog\\Domain\\Article.cs": {
           "Instructions": [
             {
-              "Id": 93,
+              "Id": 95,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 31,
@@ -1273,7 +1251,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 94,
+              "Id": 96,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 36,
@@ -1284,7 +1262,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 95,
+              "Id": 97,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 33,
@@ -1295,7 +1273,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 96,
+              "Id": 98,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 38,
@@ -1306,7 +1284,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 97,
+              "Id": 99,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 32,
@@ -1317,7 +1295,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 98,
+              "Id": 100,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 37,
@@ -1328,7 +1306,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 99,
+              "Id": 101,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 33,
@@ -1339,7 +1317,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 100,
+              "Id": 102,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 38,
@@ -1354,9 +1332,9 @@
         "crossblog\\Domain\\BaseEntity.cs": {
           "Instructions": [
             {
-              "Id": 101,
-              "StartLine": 7,
-              "EndLine": 7,
+              "Id": 103,
+              "StartLine": 9,
+              "EndLine": 9,
               "StartColumn": 26,
               "EndColumn": 30,
               "Class": "crossblog.Domain.BaseEntity",
@@ -1365,36 +1343,14 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 102,
-              "StartLine": 7,
-              "EndLine": 7,
+              "Id": 104,
+              "StartLine": 9,
+              "EndLine": 9,
               "StartColumn": 31,
               "EndColumn": 35,
               "Class": "crossblog.Domain.BaseEntity",
               "Method": "set_Id",
               "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Id(System.Int32)",
-              "Instruction": "IL_0000: ldarg "
-            },
-            {
-              "Id": 103,
-              "StartLine": 9,
-              "EndLine": 9,
-              "StartColumn": 38,
-              "EndColumn": 42,
-              "Class": "crossblog.Domain.BaseEntity",
-              "Method": "get_Created_At",
-              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Created_At()",
-              "Instruction": "IL_0000: ldarg "
-            },
-            {
-              "Id": 104,
-              "StartLine": 9,
-              "EndLine": 9,
-              "StartColumn": 43,
-              "EndColumn": 47,
-              "Class": "crossblog.Domain.BaseEntity",
-              "Method": "set_Created_At",
-              "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Created_At(System.DateTime)",
               "Instruction": "IL_0000: ldarg "
             },
             {
@@ -1404,14 +1360,36 @@
               "StartColumn": 38,
               "EndColumn": 42,
               "Class": "crossblog.Domain.BaseEntity",
-              "Method": "get_Updated_At",
-              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Updated_At()",
+              "Method": "get_Created_At",
+              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Created_At()",
               "Instruction": "IL_0000: ldarg "
             },
             {
               "Id": 106,
               "StartLine": 11,
               "EndLine": 11,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "set_Created_At",
+              "MethodFullName": "System.Void crossblog.Domain.BaseEntity::set_Created_At(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 107,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "crossblog.Domain.BaseEntity",
+              "Method": "get_Updated_At",
+              "MethodFullName": "System.DateTime crossblog.Domain.BaseEntity::get_Updated_At()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 108,
+              "StartLine": 13,
+              "EndLine": 13,
               "StartColumn": 43,
               "EndColumn": 47,
               "Class": "crossblog.Domain.BaseEntity",
@@ -1424,7 +1402,7 @@
         "crossblog\\Domain\\Comment.cs": {
           "Instructions": [
             {
-              "Id": 107,
+              "Id": 109,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 33,
@@ -1435,7 +1413,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 108,
+              "Id": 110,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 38,
@@ -1446,7 +1424,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 109,
+              "Id": 111,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 42,
@@ -1457,7 +1435,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 110,
+              "Id": 112,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 47,
@@ -1468,7 +1446,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 111,
+              "Id": 113,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 31,
@@ -1479,7 +1457,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 112,
+              "Id": 114,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 36,
@@ -1490,7 +1468,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 113,
+              "Id": 115,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 31,
@@ -1501,7 +1479,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 114,
+              "Id": 116,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 36,
@@ -1512,7 +1490,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 115,
+              "Id": 117,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 33,
@@ -1523,7 +1501,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 116,
+              "Id": 118,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 38,
@@ -1534,7 +1512,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 117,
+              "Id": 119,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 32,
@@ -1545,7 +1523,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 118,
+              "Id": 120,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 37,
@@ -1556,7 +1534,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 119,
+              "Id": 121,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 33,
@@ -1567,7 +1545,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 120,
+              "Id": 122,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 38,
@@ -1582,7 +1560,7 @@
         "crossblog\\Exceptions\\HttpStatusCodeException.cs": {
           "Instructions": [
             {
-              "Id": 56,
+              "Id": 58,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 33,
@@ -1593,7 +1571,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 57,
+              "Id": 59,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 38,
@@ -1604,7 +1582,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 58,
+              "Id": 60,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 37,
@@ -1615,7 +1593,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 59,
+              "Id": 61,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 42,
@@ -1626,7 +1604,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 60,
+              "Id": 62,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 51,
@@ -1637,7 +1615,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 61,
+              "Id": 63,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 9,
@@ -1648,7 +1626,7 @@
               "Instruction": "IL_000b: ldarg "
             },
             {
-              "Id": 62,
+              "Id": 64,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 13,
@@ -1659,7 +1637,7 @@
               "Instruction": "IL_0013: ldarg "
             },
             {
-              "Id": 63,
+              "Id": 65,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 51,
@@ -1670,7 +1648,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 64,
+              "Id": 66,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 74,
@@ -1681,7 +1659,7 @@
               "Instruction": "IL_000b: ldarg "
             },
             {
-              "Id": 65,
+              "Id": 67,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 13,
@@ -1692,7 +1670,7 @@
               "Instruction": "IL_0014: ldarg "
             },
             {
-              "Id": 66,
+              "Id": 68,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 75,
@@ -1703,7 +1681,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 67,
+              "Id": 69,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 79,
@@ -1714,7 +1692,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 68,
+              "Id": 70,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 13,
@@ -1729,7 +1707,7 @@
         "crossblog\\Exceptions\\HttpStatusCodeExceptionMiddleware.cs": {
           "Instructions": [
             {
-              "Id": 69,
+              "Id": 71,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 9,
@@ -1740,7 +1718,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 70,
+              "Id": 72,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 13,
@@ -1751,7 +1729,7 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 71,
+              "Id": 73,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 13,
@@ -1762,7 +1740,7 @@
               "Instruction": "IL_001e: ldarg "
             },
             {
-              "Id": 72,
+              "Id": 74,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 17,
@@ -1773,7 +1751,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 73,
+              "Id": 75,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 13,
@@ -1784,7 +1762,7 @@
               "Instruction": "IL_009d: stloc V_3"
             },
             {
-              "Id": 74,
+              "Id": 76,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 17,
@@ -1795,7 +1773,7 @@
               "Instruction": "IL_00d2: ldarg "
             },
             {
-              "Id": 75,
+              "Id": 77,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 21,
@@ -1806,7 +1784,7 @@
               "Instruction": "IL_00e9: ldarg "
             },
             {
-              "Id": 76,
+              "Id": 78,
               "StartLine": 31,
               "EndLine": 31,
               "StartColumn": 21,
@@ -1817,7 +1795,7 @@
               "Instruction": "IL_0104: ldarg "
             },
             {
-              "Id": 77,
+              "Id": 79,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -1828,7 +1806,7 @@
               "Instruction": "IL_012a: ldarg "
             },
             {
-              "Id": 78,
+              "Id": 80,
               "StartLine": 35,
               "EndLine": 35,
               "StartColumn": 17,
@@ -1839,7 +1817,7 @@
               "Instruction": "IL_013b: ldarg "
             },
             {
-              "Id": 79,
+              "Id": 81,
               "StartLine": 36,
               "EndLine": 36,
               "StartColumn": 17,
@@ -1850,7 +1828,7 @@
               "Instruction": "IL_0157: ldarg "
             },
             {
-              "Id": 80,
+              "Id": 82,
               "StartLine": 38,
               "EndLine": 38,
               "StartColumn": 17,
@@ -1861,7 +1839,7 @@
               "Instruction": "IL_0173: ldarg "
             },
             {
-              "Id": 81,
+              "Id": 83,
               "StartLine": 40,
               "EndLine": 40,
               "StartColumn": 17,
@@ -1872,7 +1850,7 @@
               "Instruction": "IL_01f2: leave IL_0217"
             },
             {
-              "Id": 82,
+              "Id": 84,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 17,
@@ -1883,7 +1861,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 83,
+              "Id": 85,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 13,
@@ -1894,7 +1872,7 @@
               "Instruction": "IL_009d: stloc V_3"
             },
             {
-              "Id": 84,
+              "Id": 86,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 17,
@@ -1905,7 +1883,7 @@
               "Instruction": "IL_00d2: ldarg "
             },
             {
-              "Id": 85,
+              "Id": 87,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 21,
@@ -1916,7 +1894,7 @@
               "Instruction": "IL_00e9: ldarg "
             },
             {
-              "Id": 86,
+              "Id": 88,
               "StartLine": 31,
               "EndLine": 31,
               "StartColumn": 21,
@@ -1927,7 +1905,7 @@
               "Instruction": "IL_0104: ldarg "
             },
             {
-              "Id": 87,
+              "Id": 89,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -1938,7 +1916,7 @@
               "Instruction": "IL_012a: ldarg "
             },
             {
-              "Id": 88,
+              "Id": 90,
               "StartLine": 35,
               "EndLine": 35,
               "StartColumn": 17,
@@ -1949,7 +1927,7 @@
               "Instruction": "IL_013b: ldarg "
             },
             {
-              "Id": 89,
+              "Id": 91,
               "StartLine": 36,
               "EndLine": 36,
               "StartColumn": 17,
@@ -1960,7 +1938,7 @@
               "Instruction": "IL_0157: ldarg "
             },
             {
-              "Id": 90,
+              "Id": 92,
               "StartLine": 38,
               "EndLine": 38,
               "StartColumn": 17,
@@ -1971,7 +1949,7 @@
               "Instruction": "IL_0173: ldarg "
             },
             {
-              "Id": 91,
+              "Id": 93,
               "StartLine": 40,
               "EndLine": 40,
               "StartColumn": 17,
@@ -1986,7 +1964,7 @@
         "crossblog\\Exceptions\\HttpStatusCodeExceptionMiddlewareExtensions.cs": {
           "Instructions": [
             {
-              "Id": 92,
+              "Id": 94,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 13,
@@ -2001,7 +1979,7 @@
         "crossblog\\Model\\ArticleListModel.cs": {
           "Instructions": [
             {
-              "Id": 30,
+              "Id": 32,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 53,
@@ -2012,7 +1990,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 31,
+              "Id": 33,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 58,
@@ -2027,7 +2005,7 @@
         "crossblog\\Model\\ArticleModel.cs": {
           "Instructions": [
             {
-              "Id": 32,
+              "Id": 34,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 26,
@@ -2038,7 +2016,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 33,
+              "Id": 35,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 31,
@@ -2049,7 +2027,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 34,
+              "Id": 36,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 31,
@@ -2060,7 +2038,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 35,
+              "Id": 37,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 36,
@@ -2071,7 +2049,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 36,
+              "Id": 38,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 33,
@@ -2082,7 +2060,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 37,
+              "Id": 39,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 38,
@@ -2093,7 +2071,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 38,
+              "Id": 40,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 32,
@@ -2104,7 +2082,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 39,
+              "Id": 41,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 37,
@@ -2115,7 +2093,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 40,
+              "Id": 42,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 33,
@@ -2126,7 +2104,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 41,
+              "Id": 43,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 38,
@@ -2141,7 +2119,7 @@
         "crossblog\\Model\\CommentListModel.cs": {
           "Instructions": [
             {
-              "Id": 42,
+              "Id": 44,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 53,
@@ -2152,7 +2130,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 43,
+              "Id": 45,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 58,
@@ -2167,7 +2145,7 @@
         "crossblog\\Model\\CommentModel.cs": {
           "Instructions": [
             {
-              "Id": 44,
+              "Id": 46,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 25,
@@ -2178,7 +2156,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 45,
+              "Id": 47,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 30,
@@ -2189,7 +2167,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 46,
+              "Id": 48,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 31,
@@ -2200,7 +2178,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 47,
+              "Id": 49,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 36,
@@ -2211,7 +2189,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 48,
+              "Id": 50,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 31,
@@ -2222,7 +2200,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 49,
+              "Id": 51,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 36,
@@ -2233,7 +2211,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 50,
+              "Id": 52,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 33,
@@ -2244,7 +2222,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 51,
+              "Id": 53,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 38,
@@ -2255,7 +2233,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 52,
+              "Id": 54,
               "StartLine": 21,
               "EndLine": 21,
               "StartColumn": 32,
@@ -2266,7 +2244,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 53,
+              "Id": 55,
               "StartLine": 21,
               "EndLine": 21,
               "StartColumn": 37,
@@ -2277,7 +2255,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 54,
+              "Id": 56,
               "StartLine": 23,
               "EndLine": 23,
               "StartColumn": 33,
@@ -2288,7 +2266,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 55,
+              "Id": 57,
               "StartLine": 23,
               "EndLine": 23,
               "StartColumn": 38,
@@ -2378,8 +2356,8 @@
             },
             {
               "Id": 7,
-              "StartLine": 21,
-              "EndLine": 21,
+              "StartLine": 22,
+              "EndLine": 22,
               "StartColumn": 13,
               "EndColumn": 54,
               "Class": "crossblog.Repositories.GenericRepository`1",
@@ -2411,8 +2389,8 @@
             },
             {
               "Id": 10,
-              "StartLine": 26,
-              "EndLine": 26,
+              "StartLine": 27,
+              "EndLine": 27,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2422,8 +2400,8 @@
             },
             {
               "Id": 11,
-              "StartLine": 27,
-              "EndLine": 27,
+              "StartLine": 28,
+              "EndLine": 28,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2433,8 +2411,8 @@
             },
             {
               "Id": 12,
-              "StartLine": 29,
-              "EndLine": 29,
+              "StartLine": 30,
+              "EndLine": 30,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2444,8 +2422,8 @@
             },
             {
               "Id": 13,
-              "StartLine": 30,
-              "EndLine": 30,
+              "StartLine": 31,
+              "EndLine": 31,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2455,8 +2433,8 @@
             },
             {
               "Id": 14,
-              "StartLine": 26,
-              "EndLine": 26,
+              "StartLine": 27,
+              "EndLine": 27,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2466,8 +2444,8 @@
             },
             {
               "Id": 15,
-              "StartLine": 27,
-              "EndLine": 27,
+              "StartLine": 28,
+              "EndLine": 28,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2477,8 +2455,8 @@
             },
             {
               "Id": 16,
-              "StartLine": 29,
-              "EndLine": 29,
+              "StartLine": 30,
+              "EndLine": 30,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2488,8 +2466,8 @@
             },
             {
               "Id": 17,
-              "StartLine": 30,
-              "EndLine": 30,
+              "StartLine": 31,
+              "EndLine": 31,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<InsertAsync>d__6",
@@ -2499,8 +2477,8 @@
             },
             {
               "Id": 18,
-              "StartLine": 35,
-              "EndLine": 35,
+              "StartLine": 36,
+              "EndLine": 36,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2510,8 +2488,8 @@
             },
             {
               "Id": 19,
-              "StartLine": 37,
-              "EndLine": 37,
+              "StartLine": 38,
+              "EndLine": 38,
               "StartColumn": 13,
               "EndColumn": 67,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2521,8 +2499,8 @@
             },
             {
               "Id": 20,
-              "StartLine": 38,
-              "EndLine": 38,
+              "StartLine": 39,
+              "EndLine": 39,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2532,8 +2510,8 @@
             },
             {
               "Id": 21,
-              "StartLine": 35,
-              "EndLine": 35,
+              "StartLine": 36,
+              "EndLine": 36,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2543,8 +2521,8 @@
             },
             {
               "Id": 22,
-              "StartLine": 37,
-              "EndLine": 37,
+              "StartLine": 38,
+              "EndLine": 38,
               "StartColumn": 13,
               "EndColumn": 67,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2554,8 +2532,8 @@
             },
             {
               "Id": 23,
-              "StartLine": 38,
-              "EndLine": 38,
+              "StartLine": 39,
+              "EndLine": 39,
               "StartColumn": 13,
               "EndColumn": 49,
               "Class": "crossblog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
@@ -2565,79 +2543,101 @@
             },
             {
               "Id": 24,
-              "StartLine": 43,
-              "EndLine": 43,
+              "StartLine": 44,
+              "EndLine": 44,
               "StartColumn": 13,
               "EndColumn": 44,
               "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
+              "Instruction": "IL_000f: ldarg "
             },
             {
               "Id": 25,
               "StartLine": 45,
               "EndLine": 45,
               "StartColumn": 13,
-              "EndColumn": 66,
+              "EndColumn": 39,
               "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_002f: ldarg "
+              "Instruction": "IL_002c: ldarg "
             },
             {
               "Id": 26,
-              "StartLine": 46,
-              "EndLine": 46,
-              "StartColumn": 13,
-              "EndColumn": 49,
-              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_004c: ldarg "
-            },
-            {
-              "Id": 27,
-              "StartLine": 43,
-              "EndLine": 43,
+              "StartLine": 44,
+              "EndLine": 44,
               "StartColumn": 13,
               "EndColumn": 44,
               "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
+              "Instruction": "IL_000f: ldarg "
             },
             {
-              "Id": 28,
+              "Id": 27,
               "StartLine": 45,
               "EndLine": 45,
               "StartColumn": 13,
-              "EndColumn": 66,
+              "EndColumn": 39,
               "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
               "Method": "MoveNext",
               "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_002f: ldarg "
+              "Instruction": "IL_002c: ldarg "
+            },
+            {
+              "Id": 28,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
             },
             {
               "Id": 29,
-              "StartLine": 46,
-              "EndLine": 46,
+              "StartLine": 51,
+              "EndLine": 51,
               "StartColumn": 13,
               "EndColumn": 49,
-              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
-              "Instruction": "IL_004c: ldarg "
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9::MoveNext()",
+              "Instruction": "IL_002c: ldarg "
+            },
+            {
+              "Id": 30,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 31,
+              "StartLine": 51,
+              "EndLine": 51,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void crossblog.Repositories.GenericRepository`1/<DeleteAsync>d__9::MoveNext()",
+              "Instruction": "IL_002c: ldarg "
             }
           ]
         }
       },
       "Locations": [
         {
-          "File": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.dll",
-          "BackupFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.dll",
-          "PdbFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.pdb",
-          "BackupPdbFile": "C:\\Users\\ryamilka\\Documents\\New folder\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.pdb"
+          "File": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.dll",
+          "BackupFile": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.dll",
+          "PdbFile": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.pdb",
+          "BackupPdbFile": "C:\\Users\\jaricardodev\\Downloads\\crossblogs-dotnet-sa\\crossblog.tests\\bin\\Debug\\netcoreapp2.0\\crossblog.uninstrumented.pdb"
         }
       ]
     }

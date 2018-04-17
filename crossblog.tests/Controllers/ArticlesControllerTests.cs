@@ -131,18 +131,14 @@ namespace crossblog.tests.Controllers
         public async Task Post_Returns201CreatedResponse()
         {
             // Arrange
-            var article = Builder<ArticleModel>
-            .CreateNew()
-                .With(x => x.Title = "Special title")
-                .And(x => x.Content = "Special description")
-                .And(x => x.Date = DateTime.Now)
-                .And(x => x.Published = true)
-            .Build();
+            var articleModel = Builder<ArticleModel>.CreateNew().Build();
+            var article = Builder<Article>.CreateNew().Build();
+            _articleRepositoryMock.Setup(m => m.InsertAsync(article)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
 
             var expectedUri = "articles/0";
 
             // Act
-            var result = await _articlesController.Post(article);
+            var result = await _articlesController.Post(articleModel);
 
             // Assert
             Assert.NotNull(result);
@@ -155,17 +151,16 @@ namespace crossblog.tests.Controllers
             Assert.NotNull(content);
         }
 
-        [Theory]
-        [InlineData(0)]
-        [InlineData(10)]
-        public async Task Delete(int id)
+        [Fact]
+        public async Task Put_Returns400BadRequest()
         {
-            // Arrange for success
-            _articleRepositoryMock.Setup(m => m.GetAsync(id)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
 
+            // Arrange
+            _articlesController.ModelState.AddModelError("Content", "Content is required");
+            var article = Builder<ArticleModel>.CreateNew().Build();
 
             //Act
-            var result = await _articlesController.Delete(id);
+            var result = await _articlesController.Put(0,article);
 
             // Assert
             Assert.NotNull(result);
@@ -173,6 +168,83 @@ namespace crossblog.tests.Controllers
             var objectResult = result as BadRequestObjectResult;
             Assert.NotNull(objectResult);
             Assert.Equal(400, objectResult.StatusCode);
+        }
+
+        [Fact]
+        public async Task Put_Returns404NotFound()
+        {
+            // Arrange
+            var article = Builder<ArticleModel>.CreateNew().Build();
+            _articleRepositoryMock.Setup(m => m.GetAsync(0)).Returns(Task.FromResult((Article)null));
+            
+            //Act
+            var result = await _articlesController.Put(0, article);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as NotFoundResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(404, objectResult.StatusCode);
+        }
+
+        [Fact]
+        public async Task Put_Returns200OkResponse()
+        {
+            // Arrange
+            var articleModel = Builder<ArticleModel>.CreateNew().Build();
+            var article = Builder<Article>.CreateNew().Build();
+            _articleRepositoryMock.Setup(m => m.UpdateAsync(article)).Returns(Task.FromResult(article));
+            _articleRepositoryMock.Setup(m => m.GetAsync(0)).Returns(Task.FromResult(article));
+
+            // Act
+            var result = await _articlesController.Put(0, articleModel);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as OkObjectResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(200, objectResult.StatusCode);
+
+            var content = objectResult.Value as Article;
+            Assert.NotNull(content);
+        }
+
+        [Fact]
+        public async Task Delete_Returns404NotFound()
+        {
+            // Arrange
+            _articleRepositoryMock.Setup(m => m.GetAsync(0)).Returns(Task.FromResult((Article)null));
+          
+            //Act
+            var result = await _articlesController.Delete(0);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as NotFoundResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(404, objectResult.StatusCode);           
+        }
+
+        [Fact]
+        public async Task Delete_Returns200OkResponse()
+        {
+            // Arrange
+            _articleRepositoryMock.Setup(m => m.GetAsync(0)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
+            _articleRepositoryMock.Setup(m => m.DeleteAsync(Builder<Article>.CreateNew().Build())).Returns(Task.CompletedTask);
+
+
+            // Act
+            var result = await _articlesController.Delete(0);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as OkResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(200, objectResult.StatusCode);
         }
     }
 }
