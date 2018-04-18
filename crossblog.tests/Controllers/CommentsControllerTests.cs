@@ -71,13 +71,31 @@ namespace crossblog.tests.Controllers
         }
 
         [Fact]
-        public async Task Get_ByArticleAndComment_NotFound()
+        public async Task Get_ByArticleAndComment_NotFound_Article()
         {
             // Arrange
             _articleRepositoryMock.Setup(m => m.GetAsync(1)).Returns(Task.FromResult<Article>(null));
 
             // Act
-            var result = await _commentsController.Get(1);
+            var result = await _commentsController.Get(1,1);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as NotFoundResult;
+            Assert.NotNull(objectResult);
+        }
+
+        [Fact]
+        public async Task Get_ByArticleAndComment_NotFound_Comment()
+        {
+            // Arrange
+            _articleRepositoryMock.Setup(m => m.GetAsync(1)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
+            var articleDbSetMock = Builder<Comment>.CreateListOfSize(3).Build().ToAsyncDbSetMock();
+            _commentRepositoryMock.Setup(m => m.Query()).Returns(articleDbSetMock.Object);
+
+            // Act
+            var result = await _commentsController.Get(1, 1);
 
             // Assert
             Assert.NotNull(result);
@@ -91,11 +109,14 @@ namespace crossblog.tests.Controllers
         {
             // Arrange
             _articleRepositoryMock.Setup(m => m.GetAsync(1)).Returns(Task.FromResult(Builder<Article>.CreateNew().Build()));
-            var articleDbSetMock = Builder<Comment>.CreateListOfSize(3).Build().ToAsyncDbSetMock();
+            var articleDbSetMock = Builder<Comment>.CreateListOfSize(1)
+                .All()
+                .CreateTitles()
+                .Build().ToAsyncDbSetMock();
             _commentRepositoryMock.Setup(m => m.Query()).Returns(articleDbSetMock.Object);
 
             // Act
-            var result = await _commentsController.Get(1);
+            var result = await _commentsController.Get(1,1);
 
             // Assert
             Assert.NotNull(result);
@@ -105,10 +126,72 @@ namespace crossblog.tests.Controllers
 
             Assert.Equal(200, objectResult.StatusCode);
 
-            var content = objectResult.Value as CommentListModel;
+            var content = objectResult.Value as CommentModel;
             Assert.NotNull(content);
 
-            Assert.Equal(3, content.Comments.Count());
+            Assert.Equal(Constants.SampleTitle, content.Title);
+        }
+
+        [Fact]
+        public async Task Post_Returns400BadRequest()
+        {
+            // Arrange
+            _commentsController.ModelState.AddModelError("Content", "Content is required");
+            var comment = Builder<CommentModel>.CreateNew().Build();
+
+            //Act
+            var result = await _commentsController.Post(1, comment);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as BadRequestObjectResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(400, objectResult.StatusCode);
+        }
+
+        [Fact]
+        public async Task Post_Returns404NotFound()
+        {
+            // Arrange
+            var comment = Builder<CommentModel>.CreateNew().Build();
+            _articleRepositoryMock.Setup(m => m.GetAsync(1)).Returns(Task.FromResult<Article>(null));
+
+            //Act
+            var result = await _commentsController.Post(1, comment);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as NotFoundResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(404, objectResult.StatusCode);
+        }
+
+        [Fact]
+        public async Task Post_Returns201CreatedResponse()
+        {
+            // Arrange
+            var article = Builder<Article>.CreateNew().Build();
+            var comment = Builder<Comment>.CreateNew().Build();
+            var commentModel = Builder<CommentModel>.CreateNew().Build();
+            _articleRepositoryMock.Setup(m => m.GetAsync(0)).Returns(Task.FromResult(article));
+            _commentRepositoryMock.Setup(m => m.InsertAsync(comment)).Returns(Task.FromResult(comment));
+
+            var expectedUri = "articles/0/comments/0";
+
+            // Act
+            var result = await _commentsController.Post(0,commentModel);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var objectResult = result as CreatedResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(expectedUri, objectResult.Location);
+
+            var content = objectResult.Value as CommentModel;
+            Assert.NotNull(content);
         }
     }
 }

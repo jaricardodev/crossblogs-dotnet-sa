@@ -3,6 +3,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
+using crossblog.Domain;
+using FizzWare.NBuilder;
+using FizzWare.NBuilder.Implementation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using Moq;
@@ -32,6 +35,7 @@ namespace crossblog.tests.Controllers
 
             return mockSet;
         }
+        
     }
 
     internal class TestAsyncQueryProvider<TEntity> : IAsyncQueryProvider
